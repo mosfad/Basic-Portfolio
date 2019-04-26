@@ -1,0 +1,28 @@
+body{
+    background-image: url("../images/crossline-lines.png")
+}
+
+#container{
+   
+    
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #ffffff;
+    
+}
+
+/*.top-header{
+    background: #ffffff;*/
+}
+header{
+    display: inline-block;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+nav{
+    float: right;
+}
