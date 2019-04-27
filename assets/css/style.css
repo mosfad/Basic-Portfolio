@@ -1,19 +1,15 @@
 body{
-    background-image: url("../images/crossline-lines.png")
+    background-image: url("../images/crossline-lines.png");
+    margin: 0;
+    padding: 0;
 }
 
-#container{
-   
-    
-    width: 960px;
-    margin: 0 auto;
-    padding: 30px;
-    background: #ffffff;
-    
-}
 
-/*.top-header{
-    background: #ffffff;*/
+
+#top-header{
+    background: #ffffff; /*this background is covering my Name!*/
+    width: 100%;
+    margin: 0;
 }
 header{
     display: inline-block;
@@ -25,4 +21,38 @@ header{
 
 nav{
     float: right;
+    overflow: hidden;  /*use this style to protect the header from being overwritten. Remove this style and watch your name disappear.*/
 }
+
+#profile{
+    /*box-sizing: border-box;*/
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /*width: 20%*/
+    float: left;
+}
+ 
+}
+#trial{
+    clear: both;
+}
+#title{
+    overflow: hidden;
+}
+#content{
+    /*box-sizing: border-box;*/
+    display: inline;
+    /*width: 75%;*/
+    /*margin-left: 20px; -- styled profile and content ids to fit this elements side by side.*/
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
+}
+#main-content{
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    padding: 20px;
+}
+
